@@ -1,0 +1,22 @@
+/* TemplateSelector.css */
+
+.search-bar {
+  max-width: 500px;
+}
+
+.search-icon,
+.clear-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #6c757d;
+}
+
+.search-icon {
+  left: 1rem;
+}
+
+.clear-icon {
+  right: 1rem;
+  cursor: pointer;
+}

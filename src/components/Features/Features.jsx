@@ -54,7 +54,7 @@ const Features = () => {
         <>
             {/* Why Choose Section */}
             <section className="why-choose">
-                <div className="container">
+                <div className="container2">
                     <h2 className="mb-3">Why Women Entrepreneurs Choose SiteSakhi</h2>
                     <p className="subtitle">
                         We've removed all the barriers that keep women entrepreneurs from getting online.
@@ -77,18 +77,18 @@ const Features = () => {
             {/* Testimonials */}
             <section className="py-5 bg-secondary text-white text-center">
                 <div className="container">
-                    <h2 className="mb-3">Loved by Women Entrepreneurs</h2>
-                    <p className="mb-3">Join thousands who've built their dream websites with Site-Sakhi</p>
+                    <h2 className="mb-3 fw-bold">Loved by Women Entrepreneurs</h2>
+                    <p className="mb-4 lead">Join thousands who've built their dream websites with Site-Sakhi</p>
 
                     <div className="testimonial-scroll-container mx-auto">
                         {testimonials.map((t, idx) => (
-                            <div className="card testimonial-card bg-light text-dark shadow-sm p-3 mb-3" key={idx}>
+                            <div className="card testimonial-card bg-white text-dark" key={idx}>
                                 <div className="mb-2">
                                     {Array.from({ length: t.rating }).map((_, i) => (
                                         <span key={i} className="text-warning">&#9733;</span>
                                     ))}
                                 </div>
-                                <p className="fst-italic">"{t.text}"</p>
+                                <p>"{t.text}"</p>
                                 <h6 className="mt-3 mb-0">{t.name}</h6>
                                 <small className="text-muted">{t.business}</small>
                             </div>
@@ -98,12 +98,13 @@ const Features = () => {
             </section>
 
 
+
             {/* CTA Section */}
             <section
                 className="cta-section"
-                style={{ background: "linear-gradient(to right, #0d6efd, #20c997, #198754)" }}
+                style={{ background: "linear-gradient(to right, #1a6eecf1, #b1b4a3ff, #b9417dff)" }}
             >
-                <div className="container">
+                <div className="container1">
                     <h2 className="mb-3">Ready to Build with Your Digital Companion?</h2>
                     <p className="mb-4">
                         Join the community of successful women entrepreneurs who chose site-sakhi to take control of their digital future.

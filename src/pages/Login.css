@@ -1,0 +1,23 @@
+.login-page {
+  background: linear-gradient(to bottom right, #dfe9f3, #ffffff);
+}
+
+.brand-icon {
+  width: 35px;
+  height: 35px;
+  background: linear-gradient(to right, #0d6efd, #20c997);
+  border-radius: 8px;
+}
+
+.login-card {
+  border: none;
+  border-radius: 1rem;
+}
+
+.input-group-text {
+  background-color: #f1f3f5;
+}
+
+.alert {
+  font-size: 0.875rem;
+}
