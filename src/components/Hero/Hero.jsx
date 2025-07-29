@@ -1,6 +1,7 @@
 import React from 'react'
 import './Hero.css'; // Assuming you have a Hero.css for styles
 import CountUp from 'react-countup'; // Make sure to install this package
+import { Link } from 'react-router-dom'; // For navigation links
 
 const Hero = () => {
     return (
@@ -22,7 +23,9 @@ const Hero = () => {
 
                     <div className="btn1">
                         <button>Start Building With Site-Sakhi</button>
-                        <button>View Templates</button>
+                        <Link to="/templates">
+                            <button>View Templates</button>
+                        </Link>
                     </div>
 
                     {/* <div className="flexCenter stats">

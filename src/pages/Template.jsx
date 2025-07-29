@@ -74,7 +74,7 @@ const Template = ({ onBack, onSelectTemplate }) => {
     <Layout>
       <div className="template-selector min-vh-100  top-container">
         {/* Header with back button and title */}
-        <header className="container py-4 d-flex flex-column flex-md-row align-items-md-center justify-content-between">
+        <header className="container py-2 d-flex flex-column flex-md-row align-items-md-center justify-content-between">
           <button className="btn btn-outline-primary mb-3 mb-md-0" onClick={onBack}>
             &larr; Back
         </button>
@@ -138,7 +138,7 @@ const Template = ({ onBack, onSelectTemplate }) => {
       </section>
 
       {/* Templates grid */}
-      <main className="container">
+      <main className="container t">
         {filteredTemplates.length === 0 ? (
           <div className="text-center py-5 text-muted">
             <Search size={48} className="mb-3" />
@@ -190,8 +190,10 @@ const Template = ({ onBack, onSelectTemplate }) => {
                       </button>
                     </div>
                   </div>
+                 
                 </div>
               </div>
+              
             ))}
           </div>
         )}

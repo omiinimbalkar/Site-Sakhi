@@ -2,3 +2,24 @@
 .container{
     background: none;
 }
+
+/* signup */
+.signup-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4fbfd;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.signup-card {
+  max-width: 480px;
+  width: 100%;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.logo-img {
+  width: 40px;
+}

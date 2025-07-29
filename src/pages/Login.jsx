@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './Login.css'; // custom styles
-import Signup from './Signup';
+import Signup from './Sign/Signup';
 import { Link } from "react-router-dom";
 import Layout from '../components/Layout/Layout';
 
