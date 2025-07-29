@@ -5,21 +5,32 @@
 
 /* signup */
 .signup-wrapper {
+  background: linear-gradient(to bottom right, #e6f5f8, #f8f9fb);
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #f4fbfd;
-  min-height: 100vh;
-  padding: 20px;
+  padding: 30px;
 }
 
 .signup-card {
-  max-width: 480px;
+  /* max-width: 480px;
   width: 100%;
-  border-radius: 15px;
-  background-color: #fff;
+  border-radius: 15px; */
+  border: none;
+  border-radius: 1rem;
 }
 
 .logo-img {
   width: 40px;
+}
+
+.btn-teal {
+  background-color: #007f7f;
+  border: none;
+  color: white;
+}
+
+.btn-teal:hover {
+  background-color: #005f5f;
 }

@@ -54,7 +54,7 @@ const Login = ({ onLogin, onSwitchToSignup, onBack }) => {
   return (
     <Layout>
     <div className="login-page d-flex align-items-center justify-content-center min-vh-100 bg-light px-3">
-      <div className="login-card card shadow-lg p-4 w-100" style={{ maxWidth: 450 }}>
+      <div className="login-card hadow-lg p-4 bg-white rounded" style={{ maxWidth: 450 }}>
         <button className="btn btn-link text-start px-0 mb-3" onClick={onBack}>
           <i className="bi bi-arrow-left"></i> Back to Home
         </button>
