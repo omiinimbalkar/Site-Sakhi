@@ -40,6 +40,7 @@ import Template from './pages/Template';
 import Feature from './pages/Feature';
 import SuccessStories from './pages/SuccessStories';
 import Get from './pages/Get';
+import Help from './pages/Help';
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function App() {
         <Route path="/templates" element={<Template />} />
         <Route path="/features" element={<Feature />} />
         <Route path="/success-stories" element={<SuccessStories />} />
+        <Route path="/help" element={<Help />} />
         <Route path="/get" element={<Get />} />
 
       </Routes>

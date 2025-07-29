@@ -76,9 +76,6 @@
   scroll-behavior: smooth;
 }
 .container {
-    background: #efe0f3;
-    margin-bottom: 10px;
-    color: black;
     padding: 60px 0 12px 0;
 }
 
@@ -189,4 +186,7 @@ section.py-5 p {
 
 .cta-section .btn-light:hover {
   background-color: #e2e6ea;
+}
+section.py-5{
+  background: #e6dddd;
 }

@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import './Login.css'; // custom styles
 import Signup from './Signup';
+import { Link } from "react-router-dom";
+import Layout from '../components/Layout/Layout';
 
 const Login = ({ onLogin, onSwitchToSignup, onBack }) => {
   const [email, setEmail] = useState("");
@@ -50,6 +52,7 @@ const Login = ({ onLogin, onSwitchToSignup, onBack }) => {
   };
 
   return (
+    <Layout>
     <div className="login-page d-flex align-items-center justify-content-center min-vh-100 bg-light px-3">
       <div className="login-card card shadow-lg p-4 w-100" style={{ maxWidth: 450 }}>
         <button className="btn btn-link text-start px-0 mb-3" onClick={onBack}>
@@ -150,7 +153,7 @@ const Login = ({ onLogin, onSwitchToSignup, onBack }) => {
           <small className="text-muted">
             Don't have an account?{" "}
             <button className="btn btn-link btn-sm px-0" onClick={onSwitchToSignup}>
-              <Signup/>
+              <Link to="/signup">Sign Up</Link>
             </button>
           </small>
         </div>
@@ -161,6 +164,7 @@ const Login = ({ onLogin, onSwitchToSignup, onBack }) => {
         </div>
       </div>
     </div>
+  </Layout>
   );
 };
 

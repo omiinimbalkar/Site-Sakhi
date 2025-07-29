@@ -21,8 +21,8 @@ const Hero = () => {
                     </div>
 
                     <div className="btn1">
-                        <button className="btn">Start Building With Site-Sakhi</button>
-                        <button className="btn">View Templates</button>
+                        <button>Start Building With Site-Sakhi</button>
+                        <button>View Templates</button>
                     </div>
 
                     {/* <div className="flexCenter stats">

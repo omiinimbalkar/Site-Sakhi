@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Login from './Login';
+import { Link } from 'react-router-dom';
 
 export default function SignupPage({ onSignup, onSwitchToLogin, onBack }) {
   const [email, setEmail] = useState('');
@@ -80,7 +81,7 @@ export default function SignupPage({ onSignup, onSwitchToLogin, onBack }) {
           <small>
             Already have an account?{' '}
             <button className="btn btn-link p-0" onClick={onSwitchToLogin}>
-              <Login />
+              <Link to="/login">Login</Link>
             </button>
           </small>
         </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout/Layout';
 import { Zap, Smartphone, Palette, Search, ShoppingCart, Shield, CheckCircle, Sparkles, Users, Heart, Mail, BarChart, Globe, ArrowRight } from "lucide-react";
+import './Common.css'
 // import './FeaturesPage.css'; // Make sure to create this CSS file with styles
 
 const FeaturesPage = ({ onGetStarted }) => {

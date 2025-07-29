@@ -1,6 +1,7 @@
 import React from 'react';
 import './Features.css'; // Optional CSS file for custom styling
 
+
 const features = [
     {
         icon: "📦",
@@ -75,7 +76,7 @@ const Features = () => {
             </section>
 
             {/* Testimonials */}
-            <section className="py-5 bg-secondary text-white text-center">
+            <section className="py-5 text-white text-center">
                 <div className="container">
                     <h2 className="mb-3 fw-bold">Loved by Women Entrepreneurs</h2>
                     <p className="mb-4 lead">Join thousands who've built their dream websites with Site-Sakhi</p>
@@ -102,7 +103,7 @@ const Features = () => {
             {/* CTA Section */}
             <section
                 className="cta-section"
-                style={{ background: "linear-gradient(to right, #1a6eecf1, #b1b4a3ff, #b9417dff)" }}
+                style={{ background: "linear-gradient(to right, #98b7e4f1, #b1b4a3ff, #e3c6d4ff)" }}
             >
                 <div className="container1">
                     <h2 className="mb-3">Ready to Build with Your Digital Companion?</h2>

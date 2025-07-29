@@ -20,3 +20,12 @@
   right: 1rem;
   cursor: pointer;
 }
+.top-container {
+  padding: 2rem;
+  background-color: #fdfdfd;
+}
+
+.align-items-md-center {
+  align-items: center;
+  background: none;
+} 

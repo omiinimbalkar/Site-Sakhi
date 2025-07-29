@@ -72,7 +72,7 @@ const Template = ({ onBack, onSelectTemplate }) => {
 
   return (
     <Layout>
-      <div className="template-selector min-vh-100 bg-light">
+      <div className="template-selector min-vh-100  top-container">
         {/* Header with back button and title */}
         <header className="container py-4 d-flex flex-column flex-md-row align-items-md-center justify-content-between">
           <button className="btn btn-outline-primary mb-3 mb-md-0" onClick={onBack}>
